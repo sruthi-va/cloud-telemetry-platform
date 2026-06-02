@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 EVENT_TYPES = ["commit", "pull_request", "build", "deployment", "issue"]
-
+# 
 def generate_events(n=10000):
     events = []
     start_time = datetime.now() - timedelta(days=30)
