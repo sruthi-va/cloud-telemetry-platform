@@ -10,7 +10,6 @@ def run_query(query):
     return df
 
 
-
 if __name__ == "__main__":
 
     build_query = """
