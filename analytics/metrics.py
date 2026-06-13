@@ -19,7 +19,6 @@ if __name__ == "__main__":
     FROM telemetry
     WHERE event_type='build'
     """
-
     df = run_query(build_query)
     print("\nBuild Metrics:")
     print(df)
