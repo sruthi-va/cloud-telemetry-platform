@@ -9,7 +9,6 @@ def run_query(query):
     conn.close()
     return df
 
-
 if __name__ == "__main__":
 
     build_query = """
